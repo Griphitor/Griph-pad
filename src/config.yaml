@@ -6,6 +6,7 @@ theme: monokai-plus-plus
 block-cursor: false
 code_font: Firacode NF
 code_font_size: 12
+logging: true
 themes:
 - assets/themes/azure.json
 - assets/themes/darcula.json
