@@ -1,5 +1,10 @@
 # [Griphitor](https://griphitor.xyz/) rewritten with [python](https://python.org/about)
 
+---
+[![CodeQL](https://github.com/Griphitor/Griphitor-Rewrite/actions/workflows/codeql-analysis.yml/badge.svg)](https://github.com/Griphitor/Griphitor-Rewrite/actions/workflows/codeql-analysis.yml)
+
+---
+
 Original code by OXMC
 Owned by Griphcode
 Original design and websites by [Givinghawk](https://givinghawk.xyz/)
