@@ -199,7 +199,6 @@ try:
     root.mainloop()
 except Exception as e:
     logger.log('error', 'Error: ' + str(e))
-
 finally:
     logger.log('debug', 'Exiting')
     logger.quit()
