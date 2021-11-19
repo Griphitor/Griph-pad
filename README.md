@@ -2,7 +2,7 @@
 
 ---
 [![CodeQL](https://github.com/Griphitor/Griphitor-Rewrite/actions/workflows/codeql-analysis.yml/badge.svg)](https://github.com/Griphitor/Griphitor-Rewrite/actions/workflows/codeql-analysis.yml)
-
+[![Python application](https://github.com/Griphitor/Griphitor-Rewrite/actions/workflows/python-app.yml/badge.svg)](https://github.com/Griphitor/Griphitor-Rewrite/actions/workflows/python-app.yml)
 ---
 
 Original code by OXMC
