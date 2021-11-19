@@ -12,7 +12,6 @@ import os
 import shutil
 import tempfile
 
-
 logger = Logger()
 logger.init(telemetry=get_config('logging'))
 logger.log('info', 'Starting up...')
