@@ -15,6 +15,7 @@ import tempfile
 logger = Logger()
 logger.init(telemetry=get_config('logging'))
 logger.log('info', 'Starting up...')
+
 try:
     SAVED = False
     FILE_PATH = None
