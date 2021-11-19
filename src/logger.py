@@ -118,26 +118,28 @@ class Logger():
         if telemetry:
             self.__write(
                 string.replace(
-                    '',
-                    ''
-                    ).replace(
-                        '[0m',
-                        ''
-                        ).replace(
-                            '⟫',
-                            ']'
-                            ).replace(
-                                '⟪',
-                                '['
-                                ).replace(
-                                    '[32m',
-                                    ''
-                                    ).replace(
-                                        '[36m',
-                                        '').replace(
-                                            '[33m',
-                                            ''),
-                                        )
+                '',
+                ''
+                ).replace(
+                '[0m',
+                ''
+                ).replace(
+                '⟫',
+                ']'
+                ).replace(
+                '⟪',
+                '['
+                ).replace(
+                '[32m',
+                ''
+                ).replace(
+                '[36m',
+                '').replace(
+                '[33m',
+                '').replace(
+                '[31m',
+                ''),
+                )
     
     def log(self, type_, message:str):
         if self.ini is False:
