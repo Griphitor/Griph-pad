@@ -1,6 +1,5 @@
 from tkinter import *
 from tkinter import ttk, filedialog, messagebox
-from PIL import Image, ImageTk
 from tkcode import CodeEditor
 from screen import set_screen
 from read_config import get_config
@@ -24,7 +23,7 @@ try:
     root.title(get_config('app-title'))
     root.option_add("*tearOff", 0 if get_config('menubar-tearoff') is False else 1)
     menubar = Menu(root)
-    run_btn_img = ImageTk.PhotoImage(Image.open('assets/run.png'))
+
 
     def run_code():
         logger.log('info', 'Running code...')
