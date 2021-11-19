@@ -5,7 +5,6 @@ from tkcode import CodeEditor
 from screen import set_screen
 from read_config import get_config
 from renderer import render
-# from threading import Thread
 from logger import Logger
 
 import webbrowser
@@ -39,7 +38,7 @@ try:
         os.makedirs(temf, exist_ok=True)
         temfil = os.path.join(temf, 'index.html')
         with open(temfil, 'wb') as f:
-            f.write(code.encode('utf-16'))
+            f.write(code.encode('utf-8'))
         render(temfil)
         shutil.rmtree(temf)
         logger.log('info', 'Code ran successfully')
@@ -60,7 +59,7 @@ try:
             )
         if filename:
             with open(filename, 'wb') as f:
-                f.write(code_editor.get(1.0, END).encode('utf-16'))
+                f.write(code_editor.get(1.0, END).encode('utf-8'))
                 SAVED = True
                 root.title(get_config('app-title') + ' - ' + filename)
                 FILE_PATH = filename
@@ -84,7 +83,7 @@ try:
         else:
             code = code_editor.get(1.0, END)
             with open(FILE_PATH, 'wb') as f:
-                f.write(code.encode('utf-16'))
+                f.write(code.encode('utf-8'))
 
     def open_file():
         def open_f():
@@ -101,7 +100,7 @@ try:
         )
             code_editor.delete(1.0, END)
             with open(filename, 'rb') as f:
-                code_editor.insert(1.0, f.read().decode('utf-16'))
+                code_editor.insert(1.0, f.read().decode('utf-8'))
                 root.title(get_config('app-title') + ' - ' + filename)
                 FILE_PATH = filename
         global SAVED
