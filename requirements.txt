@@ -1,0 +1,5 @@
+PyQt5
+PyQtWebEngine
+tkcode
+pyyaml
+termcolor
