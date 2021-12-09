@@ -5,7 +5,7 @@
 [![Python application](https://github.com/Griphitor/Griphitor-Rewrite/actions/workflows/python-app.yml/badge.svg)](https://github.com/Griphitor/Griphitor-Rewrite/actions/workflows/python-app.yml)
 ---
 
-Original code by OXMC
+Original code by oxmc
 Owned by Griphcode
 Original design and websites by [Givinghawk](https://givinghawk.xyz/)
 
