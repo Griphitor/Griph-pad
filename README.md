@@ -10,4 +10,5 @@ Owned by Griphcode
 Original design and website by [Griphcode](https://givinghawk.xyz/) Also huge thanks to Givinghawk for supporting the website with domain and hosting
 
 © Griphitor 2021-present all rights reserved
-© Advik-B 2021
+
+© Advik-B 2021-present
