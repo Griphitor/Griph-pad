@@ -4,6 +4,22 @@
 [![CodeQL](https://github.com/Griphitor/Griphitor-Rewrite/actions/workflows/codeql-analysis.yml/badge.svg)](https://github.com/Griphitor/Griphitor-Rewrite/actions/workflows/codeql-analysis.yml)
 [![Python application](https://github.com/Griphitor/Griphitor-Rewrite/actions/workflows/python-app.yml/badge.svg)](https://github.com/Griphitor/Griphitor-Rewrite/actions/workflows/python-app.yml)
 ---
+# How to install
+```
+git clone https://github.com/Griphitor/Griphitor-Rewrite
+cd Griphitor-Rewrite
+pip3 install -r requirements.txt
+cd src
+python3 main.py
+```
+# How to run
+```
+cd Griphitor-Rewrite/src
+python3 main.py
+```
+
+
+---
 
 Original code by oxmc
 Owned by Griphcode
