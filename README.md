@@ -9,15 +9,16 @@
 git clone https://github.com/Griphitor/Griphitor-Rewrite
 cd Griphitor-Rewrite
 pip3 install -r requirements.txt
-cd src
-python3 main.py
 ```
 # How to run
 ```
 cd Griphitor-Rewrite/src
-python3 main.py
+python3 .
 ```
 
+# Just gimme the .exe!!!
+
+Download the latest version [here](https://github.com/Griphitor/Griphitor-Rewrite/releases)
 
 ---
 
