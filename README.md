@@ -8,6 +8,7 @@
 
 Download the latest version [here](https://github.com/Griphitor/Griphitor-Rewrite/releases)
 
+---
 
 # How to install
 ```
