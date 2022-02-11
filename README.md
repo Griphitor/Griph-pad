@@ -22,6 +22,13 @@ cd Griphitor-Rewrite/src
 python3 .
 ```
 
+# Note:
+
+For linux users, first run
+```
+sudo apt update
+sudo apt install python3-tk
+```
 ---
 
 Original code by oxmc
