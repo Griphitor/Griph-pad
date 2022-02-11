@@ -3,4 +3,3 @@ PyQtWebEngine
 tkcode
 pyyaml
 termcolor
-tkinter
